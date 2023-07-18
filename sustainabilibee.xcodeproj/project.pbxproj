@@ -11,6 +11,7 @@
 		BD3640AD2A65D09C00504862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3640AC2A65D09C00504862 /* ContentView.swift */; };
 		BD3640AF2A65D09D00504862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3640AE2A65D09D00504862 /* Assets.xcassets */; };
 		BD3640B22A65D09D00504862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3640B12A65D09D00504862 /* Preview Assets.xcassets */; };
+		BDFFDB2F2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDFFDB2E2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		BD3640AC2A65D09C00504862 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD3640AE2A65D09D00504862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3640B12A65D09D00504862 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDEB766F2A67094A001D0ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDFFDB2E2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		BD3640A92A65D09C00504862 /* sustainabilibee */ = {
 			isa = PBXGroup;
 			children = (
+				BDEB766F2A67094A001D0ED3 /* Info.plist */,
+				BDFFDB2B2A66DD0700B967A2 /* fonts */,
 				BD3640AA2A65D09C00504862 /* sustainabilibeeApp.swift */,
 				BD3640AC2A65D09C00504862 /* ContentView.swift */,
 				BD3640AE2A65D09D00504862 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				BD3640B12A65D09D00504862 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDFFDB2B2A66DD0700B967A2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFDB2E2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFFDB2F2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf in Resources */,
 				BD3640B22A65D09D00504862 /* Preview Assets.xcassets in Resources */,
 				BD3640AF2A65D09D00504862 /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +283,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"sustainabilibee/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sustainabilibee/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +312,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"sustainabilibee/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sustainabilibee/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
