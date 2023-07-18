@@ -11,6 +11,10 @@
 		BD3640AD2A65D09C00504862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3640AC2A65D09C00504862 /* ContentView.swift */; };
 		BD3640AF2A65D09D00504862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3640AE2A65D09D00504862 /* Assets.xcassets */; };
 		BD3640B22A65D09D00504862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3640B12A65D09D00504862 /* Preview Assets.xcassets */; };
+		BD7F7D542A670ECF0082CC53 /* sustainabilitytips.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F7D532A670ECF0082CC53 /* sustainabilitytips.swift */; };
+		BD7F7D562A670EDF0082CC53 /* goaltracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F7D552A670EDF0082CC53 /* goaltracker.swift */; };
+		BD7F7D582A670EF80082CC53 /* moreresources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F7D572A670EF80082CC53 /* moreresources.swift */; };
+		BD7F7D5A2A670F070082CC53 /* ourmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F7D592A670F070082CC53 /* ourmission.swift */; };
 		BDFFDB2F2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDFFDB2E2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +24,10 @@
 		BD3640AC2A65D09C00504862 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD3640AE2A65D09D00504862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3640B12A65D09D00504862 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD7F7D532A670ECF0082CC53 /* sustainabilitytips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sustainabilitytips.swift; sourceTree = "<group>"; };
+		BD7F7D552A670EDF0082CC53 /* goaltracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goaltracker.swift; sourceTree = "<group>"; };
+		BD7F7D572A670EF80082CC53 /* moreresources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreresources.swift; sourceTree = "<group>"; };
+		BD7F7D592A670F070082CC53 /* ourmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ourmission.swift; sourceTree = "<group>"; };
 		BDEB766F2A67094A001D0ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BDFFDB2E2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,10 @@
 				BDFFDB2B2A66DD0700B967A2 /* fonts */,
 				BD3640AA2A65D09C00504862 /* sustainabilibeeApp.swift */,
 				BD3640AC2A65D09C00504862 /* ContentView.swift */,
+				BD7F7D552A670EDF0082CC53 /* goaltracker.swift */,
+				BD7F7D532A670ECF0082CC53 /* sustainabilitytips.swift */,
+				BD7F7D572A670EF80082CC53 /* moreresources.swift */,
+				BD7F7D592A670F070082CC53 /* ourmission.swift */,
 				BD3640AE2A65D09D00504862 /* Assets.xcassets */,
 				BD3640B02A65D09D00504862 /* Preview Content */,
 			);
@@ -151,8 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7F7D582A670EF80082CC53 /* moreresources.swift in Sources */,
+				BD7F7D5A2A670F070082CC53 /* ourmission.swift in Sources */,
+				BD7F7D542A670ECF0082CC53 /* sustainabilitytips.swift in Sources */,
 				BD3640AD2A65D09C00504862 /* ContentView.swift in Sources */,
 				BD3640AB2A65D09C00504862 /* sustainabilibeeApp.swift in Sources */,
+				BD7F7D562A670EDF0082CC53 /* goaltracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
