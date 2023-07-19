@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ourmission: View {
+    @State private var yellowTheme : Color = Color(red: 255/255, green: 213/250, blue: 80/250)
     var body: some View {
         VStack {
             
             HStack(spacing:20) {
                 Text("Our Mission")
-                    .font(.title)
-                    .multilineTextAlignment(.center)
+                    .multilineTextAlignment(.center).font(.custom("AlegreyaSansSC-Regular", size: 32))
                
                 Image("target").resizable(resizingMode: .stretch).aspectRatio(contentMode: .fit).frame(width: 50.0)
 
