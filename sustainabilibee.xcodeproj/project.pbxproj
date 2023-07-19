@@ -15,6 +15,7 @@
 		BD7F7D562A670EDF0082CC53 /* goaltracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F7D552A670EDF0082CC53 /* goaltracker.swift */; };
 		BD7F7D582A670EF80082CC53 /* moreresources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F7D572A670EF80082CC53 /* moreresources.swift */; };
 		BD7F7D5A2A670F070082CC53 /* ourmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F7D592A670F070082CC53 /* ourmission.swift */; };
+		BDACE1E42A686B080052BE05 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDACE1E32A686B080052BE05 /* OpenSans-Light.ttf */; };
 		BDFFDB2F2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDFFDB2E2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		BD7F7D552A670EDF0082CC53 /* goaltracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goaltracker.swift; sourceTree = "<group>"; };
 		BD7F7D572A670EF80082CC53 /* moreresources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreresources.swift; sourceTree = "<group>"; };
 		BD7F7D592A670F070082CC53 /* ourmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ourmission.swift; sourceTree = "<group>"; };
+		BDACE1E32A686B080052BE05 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		BDEB766F2A67094A001D0ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BDFFDB2E2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				BDFFDB2E2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf */,
+				BDACE1E32A686B080052BE05 /* OpenSans-Light.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDACE1E42A686B080052BE05 /* OpenSans-Light.ttf in Resources */,
 				BDFFDB2F2A66DD7B00B967A2 /* AlegreyaSansSC-Regular.ttf in Resources */,
 				BD3640B22A65D09D00504862 /* Preview Assets.xcassets in Resources */,
 				BD3640AF2A65D09D00504862 /* Assets.xcassets in Resources */,

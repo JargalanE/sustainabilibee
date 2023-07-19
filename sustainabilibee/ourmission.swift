@@ -23,7 +23,8 @@ struct ourmission: View {
             Spacer().frame(height:30)
             
             Text("The efforts of 1 single bee may not be world-changing, but thousands of bees together can support a whole ecosystem. However, without each individual bee, it’s impossible to make anything happen.")
-                .font(.title3)
+                .font(.custom("OpenSans-Light", size: 21))
+                .multilineTextAlignment(.center)
             
             Spacer().frame(height:30)
             

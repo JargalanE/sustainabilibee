@@ -31,7 +31,7 @@ struct ContentView: View {
                 }
                 NavigationLink(destination: Text("Tips")) {
                     Text("Sustainability tips")
-                        .font(.largeTitle)
+                        .font(.custom("AlegreyaSansSC-Regular", size: 32))
                         .padding(EdgeInsets(top: 10, leading: 45, bottom: 10, trailing: 45))
                         .foregroundColor(Color.black)
                         .background(yellowTheme)
@@ -40,7 +40,7 @@ struct ContentView: View {
                 }
                 NavigationLink(destination: Text("Our Mission")) {
                     Text("Our Mission")
-                        .font(.largeTitle)
+                        .font(.custom("AlegreyaSansSC-Regular", size: 32))
                         .padding(EdgeInsets(top: 10, leading: 85, bottom: 10, trailing: 85))
                         .foregroundColor(Color.black)
                         .background(yellowTheme)
@@ -49,7 +49,7 @@ struct ContentView: View {
                 }
                 NavigationLink(destination: Text("More resources")) {
                     Text("More resources")
-                        .font(.largeTitle)
+                        .font(.custom("AlegreyaSansSC-Regular", size: 32))
                         .padding(EdgeInsets(top: 10, leading: 60, bottom: 10, trailing: 60))
                         .foregroundColor(Color.black)
                         .background(yellowTheme)
