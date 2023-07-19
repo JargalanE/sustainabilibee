@@ -34,7 +34,7 @@ struct moreresources: View {
                         .padding(.leading, -68.0).font(.custom("OpenSans-Light", size: 21))
                     Text("• Calculate your personal carbon footprint to understand your starting point").padding(.leading, -2.0)
                         .font(.custom("OpenSans-Light", size: 21))
-                    Link("Take the quiz here!", destination: URL(string: "https://www.theenvironmentexcuse.org")!).tint(.black).background(Rectangle().fill(yellowTheme)).cornerRadius(5).font(.custom("OpenSans-Light", size: 21))
+                    Link("Take the quiz here!", destination: URL(string: "https://www.theenvironmentexcuse.org/carbon/")!).tint(.black).background(Rectangle().fill(yellowTheme)).cornerRadius(5).font(.custom("OpenSans-Light", size: 21))
                 }
             }
         }.padding(50)
