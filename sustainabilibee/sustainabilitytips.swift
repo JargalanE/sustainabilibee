@@ -27,7 +27,7 @@ struct sustainabilitytips: View {
             ScrollView (.vertical){
                 
                 VStack(spacing: 20.0) {
-                    Spacer()
+        
                     HStack {
                         Text("Sustainability Tips").font(.custom("AlegreyaSansSC-Medium", size: 37))
                         Image("tips")
@@ -91,14 +91,70 @@ struct sustainabilitytips: View {
                             }
                         }
                             //food consumption
+                        VStack {
                             
+                            NavigationLink(destination: food()) {
+                                VStack(alignment: .leading, spacing: 10.0) {
+                                    Image("foood")
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit).cornerRadius(15)
+                                    
+                                    
+                                    Text("Food Consumption").font(.custom("AlegreyaSansSC-Medium", size: 29)).font(.title).fontWeight(.bold).foregroundColor(Color.black)
+                                    
+                                    Text("Click to learn more")
+                                        .foregroundColor(Color.black).font(.custom("AlegreyaSansSC-Regular", size: 20))
+                                    
+                                    
+                                }.padding().background(Rectangle() .foregroundColor(yellowTheme)).cornerRadius(15).shadow(radius : 15).padding()
+                            }
+                        }
                             //read labels
+                        
+                        VStack {
+                                   NavigationLink(destination: water()) {
+                                    VStack(alignment: .leading, spacing: 10.0) {
+                                     Image("waater")
+                                      .resizable(resizingMode: .stretch)
+                                      .aspectRatio(contentMode: .fit).cornerRadius(15)
+                                     Text("Conserving Water").font(.custom("AlegreyaSansSC-Medium", size: 29)).font(.title).fontWeight(.bold).foregroundColor(Color.black)
+                                     Text("Click to learn more")
+                                      .foregroundColor(Color.black).font(.custom("AlegreyaSansSC-Regular", size: 20))
+                                    }.padding().background(Rectangle() .foregroundColor(yellowTheme)).cornerRadius(15).shadow(radius : 15).padding()
+                                   }
+                                  }
+                        
+                        
+                        
+                        
+                        
+                        
+                        VStack {
+                                   NavigationLink(destination: transportation()) {
+                                    VStack(alignment: .leading, spacing: 10.0) {
+                                     Image("transport")
+                                      .resizable(resizingMode: .stretch)
+                                      .aspectRatio(contentMode: .fit).cornerRadius(15)
+                                     Text("Transportation").font(.custom("AlegreyaSansSC-Medium", size: 29)).font(.title).fontWeight(.bold).foregroundColor(Color.black)
+                                     Text("Click to learn more")
+                                      .foregroundColor(Color.black).font(.custom("AlegreyaSansSC-Regular", size: 20))
+                                    }.padding().background(Rectangle() .foregroundColor(yellowTheme)).cornerRadius(15).shadow(radius : 15).padding()
+                                   }
+                                  }
                             
-                            //conserving water
-                            
-                            //transportation
-                            
-                            //digital carbon footprint
+                        VStack {
+                                   NavigationLink(destination: digital()) {
+                                    VStack(alignment: .leading, spacing: 10.0) {
+                                     Image("cfoot")
+                                      .resizable(resizingMode: .stretch)
+                                      .aspectRatio(contentMode: .fit).cornerRadius(15)
+                                     Text("Digital Carbon Footprint").font(.custom("AlegreyaSansSC-Medium", size: 29)).font(.title).fontWeight(.bold).foregroundColor(Color.black)
+                                     Text("Click to learn more")
+                                      .foregroundColor(Color.black).font(.custom("AlegreyaSansSC-Regular", size: 20))
+                                    }.padding().background(Rectangle() .foregroundColor(yellowTheme)).cornerRadius(15).shadow(radius : 15).padding()
+                                   }
+                                  }
+                        
                         }
                     }
                     

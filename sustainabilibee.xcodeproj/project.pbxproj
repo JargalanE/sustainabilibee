@@ -22,6 +22,8 @@
 		BDAF78642A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDAF78632A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf */; };
 		BDB80B272A69850C0084AABE /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB80B262A69850C0084AABE /* OpenSans-Light.ttf */; };
 		BDB80B292A6987810084AABE /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB80B282A6987810084AABE /* food.swift */; };
+		BDCF55212A699A93004CDF39 /* transportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF55202A699A93004CDF39 /* transportation.swift */; };
+		BDCF55232A699B2F004CDF39 /* digital.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF55222A699B2F004CDF39 /* digital.swift */; };
 		BDCF61582A698A5200EF49E3 /* water.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF61572A698A5200EF49E3 /* water.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,8 @@
 		BDAF78632A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Medium.ttf"; sourceTree = "<group>"; };
 		BDB80B262A69850C0084AABE /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		BDB80B282A6987810084AABE /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+		BDCF55202A699A93004CDF39 /* transportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transportation.swift; sourceTree = "<group>"; };
+		BDCF55222A699B2F004CDF39 /* digital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digital.swift; sourceTree = "<group>"; };
 		BDCF61572A698A5200EF49E3 /* water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +89,8 @@
 				BDB80B282A6987810084AABE /* food.swift */,
 				BDAF78562A697FAF002AEC37 /* swaps.swift */,
 				BDCF61572A698A5200EF49E3 /* water.swift */,
+				BDCF55202A699A93004CDF39 /* transportation.swift */,
+				BDCF55222A699B2F004CDF39 /* digital.swift */,
 				BD7F7D572A670EF80082CC53 /* moreresources.swift */,
 				BD7F7D592A670F070082CC53 /* ourmission.swift */,
 				BD3640AE2A65D09D00504862 /* Assets.xcassets */,
@@ -189,12 +195,14 @@
 				BDCF61582A698A5200EF49E3 /* water.swift in Sources */,
 				BD7F7D5A2A670F070082CC53 /* ourmission.swift in Sources */,
 				BD7F7D542A670ECF0082CC53 /* sustainabilitytips.swift in Sources */,
+				BDCF55232A699B2F004CDF39 /* digital.swift in Sources */,
 				BDAF78512A697F61002AEC37 /* rrr.swift in Sources */,
 				BD3640AD2A65D09C00504862 /* ContentView.swift in Sources */,
 				BD3640AB2A65D09C00504862 /* sustainabilibeeApp.swift in Sources */,
 				BD7F7D562A670EDF0082CC53 /* goaltracker.swift in Sources */,
 				BDAF78532A697F87002AEC37 /* shop.swift in Sources */,
 				BDB80B292A6987810084AABE /* food.swift in Sources */,
+				BDCF55212A699A93004CDF39 /* transportation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
