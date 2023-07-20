@@ -72,7 +72,24 @@ struct sustainabilitytips: View {
                                 }.padding().background(Rectangle() .foregroundColor(yellowTheme)).cornerRadius(15).shadow(radius : 15).padding()
                             }
                             //sustainable swaps
+                        VStack {
                             
+                            NavigationLink(destination: swaps()) {
+                                VStack(alignment: .leading, spacing: 10.0) {
+                                    Image("sustainablee")
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit).cornerRadius(15)
+                                    
+                                    
+                                    Text("Sustainable Swaps").font(.custom("AlegreyaSansSC-Medium", size: 29)).font(.title).fontWeight(.bold).foregroundColor(Color.black)
+                                    
+                                    Text("Click to learn more")
+                                        .foregroundColor(Color.black).font(.custom("AlegreyaSansSC-Regular", size: 20))
+                                    
+                                    
+                                }.padding().background(Rectangle() .foregroundColor(yellowTheme)).cornerRadius(15).shadow(radius : 15).padding()
+                            }
+                        }
                             //food consumption
                             
                             //read labels

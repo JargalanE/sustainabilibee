@@ -29,7 +29,7 @@ struct moreresources: View {
                         .padding(.leading, -30.0).font(.custom("OpenSans-Light", size: 21))
                     Text("• Documentary: David Attenborough: A Life on Our Planet")
                         .padding(.leading, -24.0).font(.custom("OpenSans-Light", size: 21))
-                    Text("• Follow Greta Thunberg")
+                    Text("• Support and vote for environmental protection policies")
                         .multilineTextAlignment(.leading)
                         .padding(.leading, -68.0).font(.custom("OpenSans-Light", size: 21))
                     Text("• Calculate your personal carbon footprint to understand your starting point").padding(.leading, -2.0)

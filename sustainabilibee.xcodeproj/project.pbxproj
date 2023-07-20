@@ -22,6 +22,7 @@
 		BDAF78642A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDAF78632A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf */; };
 		BDB80B272A69850C0084AABE /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB80B262A69850C0084AABE /* OpenSans-Light.ttf */; };
 		BDB80B292A6987810084AABE /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB80B282A6987810084AABE /* food.swift */; };
+		BDCF61582A698A5200EF49E3 /* water.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF61572A698A5200EF49E3 /* water.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		BDAF78632A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Medium.ttf"; sourceTree = "<group>"; };
 		BDB80B262A69850C0084AABE /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		BDB80B282A6987810084AABE /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+		BDCF61572A698A5200EF49E3 /* water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				BDAF78522A697F87002AEC37 /* shop.swift */,
 				BDB80B282A6987810084AABE /* food.swift */,
 				BDAF78562A697FAF002AEC37 /* swaps.swift */,
+				BDCF61572A698A5200EF49E3 /* water.swift */,
 				BD7F7D572A670EF80082CC53 /* moreresources.swift */,
 				BD7F7D592A670F070082CC53 /* ourmission.swift */,
 				BD3640AE2A65D09D00504862 /* Assets.xcassets */,
@@ -183,6 +186,7 @@
 			files = (
 				BD7F7D582A670EF80082CC53 /* moreresources.swift in Sources */,
 				BDAF78572A697FAF002AEC37 /* swaps.swift in Sources */,
+				BDCF61582A698A5200EF49E3 /* water.swift in Sources */,
 				BD7F7D5A2A670F070082CC53 /* ourmission.swift in Sources */,
 				BD7F7D542A670ECF0082CC53 /* sustainabilitytips.swift in Sources */,
 				BDAF78512A697F61002AEC37 /* rrr.swift in Sources */,
