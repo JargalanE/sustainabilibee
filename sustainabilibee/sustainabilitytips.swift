@@ -161,7 +161,7 @@ struct sustainabilitytips: View {
                 }
             }
             
-        }
+        }.accentColor(.black)
     }
 }
 

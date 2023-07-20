@@ -58,7 +58,7 @@ struct ContentView: View {
                 }
                 Spacer().frame(height: 80)
             }
-        }
+        }.accentColor(.black)
         
     }
 }

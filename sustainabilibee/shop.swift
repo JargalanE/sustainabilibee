@@ -13,7 +13,7 @@ struct shop: View {
         ZStack {
             yellowTheme.ignoresSafeArea()
             VStack {
-                Spacer().frame(height:30)
+                
                 VStack(spacing: 10.0) {
                     
                     Text("Shop Conciously").font(.custom("AlegreyaSansSC-Medium", size: 37))
