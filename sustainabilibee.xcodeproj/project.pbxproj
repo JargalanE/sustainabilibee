@@ -20,6 +20,8 @@
 		BDAF78572A697FAF002AEC37 /* swaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF78562A697FAF002AEC37 /* swaps.swift */; };
 		BDAF78622A6982DC002AEC37 /* AlegreyaSansSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDAF78612A6982DC002AEC37 /* AlegreyaSansSC-Regular.ttf */; };
 		BDAF78642A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDAF78632A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf */; };
+		BDB80B272A69850C0084AABE /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB80B262A69850C0084AABE /* OpenSans-Light.ttf */; };
+		BDB80B292A6987810084AABE /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB80B282A6987810084AABE /* food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		BDAF78562A697FAF002AEC37 /* swaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swaps.swift; sourceTree = "<group>"; };
 		BDAF78612A6982DC002AEC37 /* AlegreyaSansSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Regular.ttf"; sourceTree = "<group>"; };
 		BDAF78632A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Medium.ttf"; sourceTree = "<group>"; };
+		BDB80B262A69850C0084AABE /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		BDB80B282A6987810084AABE /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 				BD7F7D532A670ECF0082CC53 /* sustainabilitytips.swift */,
 				BDAF78502A697F61002AEC37 /* rrr.swift */,
 				BDAF78522A697F87002AEC37 /* shop.swift */,
+				BDB80B282A6987810084AABE /* food.swift */,
 				BDAF78562A697FAF002AEC37 /* swaps.swift */,
 				BD7F7D572A670EF80082CC53 /* moreresources.swift */,
 				BD7F7D592A670F070082CC53 /* ourmission.swift */,
@@ -98,6 +103,7 @@
 			children = (
 				BDAF78612A6982DC002AEC37 /* AlegreyaSansSC-Regular.ttf */,
 				BDAF78632A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf */,
+				BDB80B262A69850C0084AABE /* OpenSans-Light.ttf */,
 			);
 			path = fontss;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 				BDAF78642A6982FE002AEC37 /* AlegreyaSansSC-Medium.ttf in Resources */,
 				BDAF78622A6982DC002AEC37 /* AlegreyaSansSC-Regular.ttf in Resources */,
 				BD3640B22A65D09D00504862 /* Preview Assets.xcassets in Resources */,
+				BDB80B272A69850C0084AABE /* OpenSans-Light.ttf in Resources */,
 				BD3640AF2A65D09D00504862 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +190,7 @@
 				BD3640AB2A65D09C00504862 /* sustainabilibeeApp.swift in Sources */,
 				BD7F7D562A670EDF0082CC53 /* goaltracker.swift in Sources */,
 				BDAF78532A697F87002AEC37 /* shop.swift in Sources */,
+				BDB80B292A6987810084AABE /* food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

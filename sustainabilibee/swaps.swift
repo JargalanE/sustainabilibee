@@ -19,15 +19,15 @@ struct swaps: View {
                  Text("Replace everyday items like...").font(.custom("AlegreyaSansSC-Regular", size: 24)).fixedSize(horizontal: false, vertical: true)
                  
                   Text("- Straws → metal straws")
-                     .font(.custom("AlegreyaSansSC-Regular", size: 20))
+                     .font(.custom("OpenSans-Light", size: 20))
                  
                  
-                 Text("- Plastic bottles → metal/reusable bottles").font(.custom("AlegreyaSansSC-Regular", size: 20)).fixedSize(horizontal: false, vertical: true)
-                 Text("- Plastic bags → paper, cloth, or any reusable bags").font(.custom("AlegreyaSansSC-Regular", size: 20)).fixedSize(horizontal: false, vertical: true)
-                  Text("- Cling film → biodegradable wrappers, reusable containers").font(.custom("AlegreyaSansSC-Regular", size: 20)).fixedSize(horizontal: false, vertical: true)
-                  Text("- Single use tissues/towels → cloth tissues & towels").font(.custom("AlegreyaSansSC-Regular", size: 20)).fixedSize(horizontal: false, vertical: true)
+                 Text("- Plastic bottles → metal/reusable bottles").font(.custom("OpenSans-Light", size: 20)).fixedSize(horizontal: false, vertical: true)
+                 Text("- Plastic bags → paper, cloth, or any reusable bags").font(.custom("OpenSans-Light", size: 20)).fixedSize(horizontal: false, vertical: true)
+                  Text("- Cling film → biodegradable wrappers, reusable containers").font(.custom("OpenSans-Light", size: 20)).fixedSize(horizontal: false, vertical: true)
+                  Text("- Single use tissues/towels → cloth tissues & towels").font(.custom("OpenSans-Light", size: 20)).fixedSize(horizontal: false, vertical: true)
                   Spacer()
-                }.padding()
+                }.padding(10)
                }.padding().background(Rectangle() .foregroundColor(.white)).cornerRadius(25).shadow(radius : 15).padding()
               }.background(Rectangle() .foregroundColor(yellowTheme).ignoresSafeArea())
     }

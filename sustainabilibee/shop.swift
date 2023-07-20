@@ -20,13 +20,13 @@ struct shop: View {
                 VStack(alignment: .leading, spacing: 8.0) {
                     Text("Shop more conciously by:").font(.custom("AlegreyaSansSC-Regular", size: 25)).fixedSize(horizontal: false, vertical: true)
                     HStack {
-                        Text("- avoiding fast fashion").font(.custom("AlegreyaSansSC-Regular", size: 20))
+                        Text("- avoiding fast fashion").font(.custom("OpenSans-Light", size: 20))
                         Spacer().frame(width: 100)
                     }
-                    Text("- thinking long term (buying more efficient appliances)").font(.custom("AlegreyaSansSC-Regular", size: 20)).fixedSize(horizontal: false, vertical: true)
-                    Text("- being aware of the resources used to make the product (ex. does it endanger wildlife?)").font(.custom("AlegreyaSansSC-Regular", size: 20)).fixedSize(horizontal: false, vertical: true)
+                    Text("- thinking long term (buying more efficient appliances)").font(.custom("OpenSans-Light", size: 20)).fixedSize(horizontal: false, vertical: true)
+                    Text("- being aware of the resources used to make the product (ex. does it endanger wildlife?)").font(.custom("OpenSans-Light", size: 20)).fixedSize(horizontal: false, vertical: true)
                     Spacer()
-                }
+                }.padding(10)
             }.padding().background(Rectangle() .foregroundColor(.white)).cornerRadius(25).shadow(radius : 15).padding()
             
         }.background(Rectangle() .foregroundColor(yellowTheme).ignoresSafeArea())
