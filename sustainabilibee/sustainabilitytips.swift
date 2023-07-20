@@ -23,9 +23,7 @@ struct sustainabilitytips: View {
     @State private var yellowTheme : Color = Color(red: 255/255, green: 213/250, blue: 80/250)
     var body: some View {
         NavigationStack {
-            
             ScrollView (.vertical){
-                
                 VStack(spacing: 20.0) {
         
                     HStack {
@@ -159,7 +157,50 @@ struct sustainabilitytips: View {
                     }
                     
                 }
-            }
+            }.toolbar{
+                ToolbarItem(placement: .bottomBar){
+                    ZStack{
+                        RoundedRectangle(cornerRadius: 25)
+                            .fill(yellowTheme)
+                        HStack(spacing: 20.0){
+                            //                homeLink
+                            NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                                Image("home")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                            }
+                            //                GoalLink
+                            HStack(spacing: -10.0){
+                                Text("1")
+                                NavigationLink(destination: goaltracker().navigationBarBackButtonHidden(true)) {
+                                    Image("honey")
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit)
+                                }
+                            }
+                            //                tipsLink
+                            Image("tips")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 28)
+                            
+                            //                aboutUsLink
+                            NavigationLink(destination: ourmission().navigationBarBackButtonHidden(true)) {
+                                Image("target")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                            }
+                            //                more infoLink
+                            NavigationLink(destination: ourmission().navigationBarBackButtonHidden(true)) {
+                                Image("info")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                            }
+                        }.padding(EdgeInsets(top: 5, leading: 0, bottom: 5, trailing: 0))
+                    }
+                }
+                    
+                }
             
         }.accentColor(.black)
     }

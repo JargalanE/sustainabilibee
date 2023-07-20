@@ -96,34 +96,35 @@ struct goaltracker: View {
                             .fill(yellowTheme)
                         HStack(spacing: 20.0){
                             //                homeLink
-                            NavigationLink(destination: Text("home")) {
+                            NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
                                 Image("home")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                             }
                             //                GoalLink
-                            HStack(spacing: -10.0){
+                            HStack(spacing: 2.0){
                                 Text("1")
-                                NavigationLink(destination: Text("goal tracker")) {
-                                    Image("honey")
+                                
+                                Image("honey")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
-                                }
+                                        .frame(width: 29)
                             }
                             //                tipsLink
-                            NavigationLink(destination: Text("tips")) {
+                            NavigationLink(destination: sustainabilitytips().navigationBarBackButtonHidden(true)) {
                                 Image("tips")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
+                                    
                             }
                             //                aboutUsLink
-                            NavigationLink(destination: Text("us")) {
+                            NavigationLink(destination: ourmission().navigationBarBackButtonHidden(true)) {
                                 Image("target")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                             }
                             //                more infoLink
-                            NavigationLink(destination: Text("info")) {
+                            NavigationLink(destination: moreresources().navigationBarBackButtonHidden(true)) {
                                 Image("info")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
@@ -132,7 +133,7 @@ struct goaltracker: View {
                     }
                 }
                     
-                }
+            }.accentColor(.black)
         }
     }
     private func deleteTask(offsets: IndexSet) {
