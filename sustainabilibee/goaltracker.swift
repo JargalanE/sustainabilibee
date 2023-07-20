@@ -30,7 +30,7 @@ struct CheckboxToggleStyle: ToggleStyle {
     }
 }
 
-struct ContentView: View {
+struct goaltracker: View {
     @Environment(\.managedObjectContext) var context
     @FetchRequest(
             entity: ToDo.entity(), sortDescriptors: [ NSSortDescriptor(keyPath: \ToDo.id, ascending: false) ])
@@ -82,7 +82,7 @@ struct ContentView: View {
                                     .foregroundColor(Color.black)
                                     .background(yellowTheme)
                                     .clipShape(Circle())
-                            }.position(x: 325, y: 100)
+                            }.position(x: 325, y: 50)
                         }
                         if showNewTask {
                             addToDo(showNewTask: $showNewTask, title: "")
@@ -148,8 +148,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct goaltracker_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        goaltracker()
     }
 }
