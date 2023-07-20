@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2A2A5C2A69BC4A00238E4D /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A2A5B2A69BC4A00238E4D /* ToDoItem.swift */; };
+		BD2A2A5E2A69BC7000238E4D /* addToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A2A5D2A69BC7000238E4D /* addToDo.swift */; };
+		BD2A2A602A69BC9800238E4D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A2A5F2A69BC9800238E4D /* Persistence.swift */; };
+		BD2A2A632A69BCD300238E4D /* sustainabilibee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD2A2A612A69BCD300238E4D /* sustainabilibee.xcdatamodeld */; };
 		BD3640AB2A65D09C00504862 /* sustainabilibeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3640AA2A65D09C00504862 /* sustainabilibeeApp.swift */; };
 		BD3640AD2A65D09C00504862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3640AC2A65D09C00504862 /* ContentView.swift */; };
 		BD3640AF2A65D09D00504862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3640AE2A65D09D00504862 /* Assets.xcassets */; };
@@ -28,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2A2A5B2A69BC4A00238E4D /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD2A2A5D2A69BC7000238E4D /* addToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addToDo.swift; sourceTree = "<group>"; };
+		BD2A2A5F2A69BC9800238E4D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD2A2A622A69BCD300238E4D /* sustainabilibee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sustainabilibee.xcdatamodel; sourceTree = "<group>"; };
 		BD3640A72A65D09C00504862 /* sustainabilibee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sustainabilibee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3640AA2A65D09C00504862 /* sustainabilibeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sustainabilibeeApp.swift; sourceTree = "<group>"; };
 		BD3640AC2A65D09C00504862 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +91,9 @@
 				BD3640AA2A65D09C00504862 /* sustainabilibeeApp.swift */,
 				BD3640AC2A65D09C00504862 /* ContentView.swift */,
 				BD7F7D552A670EDF0082CC53 /* goaltracker.swift */,
+				BD2A2A5B2A69BC4A00238E4D /* ToDoItem.swift */,
+				BD2A2A5D2A69BC7000238E4D /* addToDo.swift */,
+				BD2A2A5F2A69BC9800238E4D /* Persistence.swift */,
 				BD7F7D532A670ECF0082CC53 /* sustainabilitytips.swift */,
 				BDAF78502A697F61002AEC37 /* rrr.swift */,
 				BDAF78522A697F87002AEC37 /* shop.swift */,
@@ -95,6 +106,7 @@
 				BD7F7D592A670F070082CC53 /* ourmission.swift */,
 				BD3640AE2A65D09D00504862 /* Assets.xcassets */,
 				BD3640B02A65D09D00504862 /* Preview Content */,
+				BD2A2A612A69BCD300238E4D /* sustainabilibee.xcdatamodeld */,
 			);
 			path = sustainabilibee;
 			sourceTree = "<group>";
@@ -191,12 +203,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7F7D582A670EF80082CC53 /* moreresources.swift in Sources */,
+				BD2A2A602A69BC9800238E4D /* Persistence.swift in Sources */,
 				BDAF78572A697FAF002AEC37 /* swaps.swift in Sources */,
+				BD2A2A5C2A69BC4A00238E4D /* ToDoItem.swift in Sources */,
 				BDCF61582A698A5200EF49E3 /* water.swift in Sources */,
 				BD7F7D5A2A670F070082CC53 /* ourmission.swift in Sources */,
+				BD2A2A5E2A69BC7000238E4D /* addToDo.swift in Sources */,
 				BD7F7D542A670ECF0082CC53 /* sustainabilitytips.swift in Sources */,
 				BDCF55232A699B2F004CDF39 /* digital.swift in Sources */,
 				BDAF78512A697F61002AEC37 /* rrr.swift in Sources */,
+				BD2A2A632A69BCD300238E4D /* sustainabilibee.xcdatamodeld in Sources */,
 				BD3640AD2A65D09C00504862 /* ContentView.swift in Sources */,
 				BD3640AB2A65D09C00504862 /* sustainabilibeeApp.swift in Sources */,
 				BD7F7D562A670EDF0082CC53 /* goaltracker.swift in Sources */,
@@ -403,6 +419,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD2A2A612A69BCD300238E4D /* sustainabilibee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD2A2A622A69BCD300238E4D /* sustainabilibee.xcdatamodel */,
+			);
+			currentVersion = BD2A2A622A69BCD300238E4D /* sustainabilibee.xcdatamodel */;
+			path = sustainabilibee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD36409F2A65D09C00504862 /* Project object */;
 }
