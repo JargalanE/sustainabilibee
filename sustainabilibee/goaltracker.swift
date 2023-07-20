@@ -75,6 +75,7 @@ struct goaltracker: View {
                             Spacer()
                             Button(action: {
                                 showNewTask = true
+                                isChecked = false
                             }) {
                                 Text("+")
                                     .font(.title)

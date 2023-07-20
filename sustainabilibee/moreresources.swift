@@ -23,16 +23,14 @@ struct moreresources: View {
                 
                 HStack {
                     
-                    VStack (alignment: .leading, spacing: 15){
-                        Text("• We are the Weather by John    Safran Foer")
-                            .font(.custom("OpenSans-Light", size: 21))
-                        Text("• Netflix Documentary:          Seaspiracy")
-                            .font(.custom("OpenSans-Light", size: 21))
-                        Text("• Documentary: David Attenborough: A Life on Our Planet")
-                            .font(.custom("OpenSans-Light", size: 21))
+                    VStack (alignment: .center, spacing: 15){
                         Text("• Support and vote for environmental protection policies")
                             .multilineTextAlignment(.leading)
                             .font(.custom("OpenSans-Light", size: 21))
+                        Link("• We are the Weather by Jonathan Safran Foer", destination: URL(string: "https://wearetheweatherbook.com")!).tint(.black).background(Rectangle().fill(yellowTheme)).cornerRadius(5).font(.custom("OpenSans-Light", size: 21)).frame(maxWidth:.infinity)
+                        Link("• Netflix Documentary: Seaspiracy", destination: URL(string: "https://www.seaspiracy.org")!).tint(.black).background(Rectangle().fill(yellowTheme)).cornerRadius(5).font(.custom("OpenSans-Light", size: 21))
+                        Link("• Documentary: David Attenborough: A Life on Our Planet", destination: URL(string: "https://www.netflix.com/title/80216393")!).tint(.black).background(Rectangle().fill(yellowTheme)).cornerRadius(5).font(.custom("OpenSans-Light", size: 21))
+                        
                         Text("• Take a quiz and calculate your personal carbon footprint to understand your starting point")
                             .font(.custom("OpenSans-Light", size: 21))
                         Link("Take the quiz here!", destination: URL(string: "https://www.theenvironmentexcuse.org/carbon/")!).tint(.black).background(Rectangle().fill(yellowTheme)).cornerRadius(5).font(.custom("OpenSans-Light", size: 21))

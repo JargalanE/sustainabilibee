@@ -20,7 +20,7 @@ struct ContentView: View {
                         .fontWeight(.semibold)
                 }
                 
-                NavigationLink(destination: goaltracker()) {
+                NavigationLink(destination: goaltracker().navigationBarBackButtonHidden(true)) {
                     Text("Goal Tracker")
                         .font(.custom("AlegreyaSansSC-Regular", size: 32))
                         .padding(EdgeInsets(top: 10, leading: 80, bottom: 10, trailing: 80))
@@ -29,7 +29,7 @@ struct ContentView: View {
                         .cornerRadius(30)
                         
                 }
-                NavigationLink(destination: sustainabilitytips()) {
+                NavigationLink(destination: sustainabilitytips().navigationBarBackButtonHidden(true)) {
                     Text("Sustainability tips")
                         .font(.custom("AlegreyaSansSC-Regular", size: 32))
                         .padding(EdgeInsets(top: 10, leading: 45, bottom: 10, trailing: 45))
@@ -38,7 +38,7 @@ struct ContentView: View {
                         .cornerRadius(30)
 
                 }
-                NavigationLink(destination: ourmission()) {
+                NavigationLink(destination: ourmission().navigationBarBackButtonHidden(true)) {
                     Text("Our Mission")
                         .font(.custom("AlegreyaSansSC-Regular", size: 32))
                         .padding(EdgeInsets(top: 10, leading: 85, bottom: 10, trailing: 85))
@@ -47,7 +47,7 @@ struct ContentView: View {
                         .cornerRadius(30)
 
                 }
-                NavigationLink(destination: moreresources()) {
+                NavigationLink(destination: moreresources().navigationBarBackButtonHidden(true)) {
                     Text("More resources")
                         .font(.custom("AlegreyaSansSC-Regular", size: 32))
                         .padding(EdgeInsets(top: 10, leading: 60, bottom: 10, trailing: 60))
