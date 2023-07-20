@@ -30,7 +30,7 @@ struct shop: View {
                         Text("Reading Labels:").font(.custom("AlegreyaSansSC-Regular", size: 25)).fixedSize(horizontal: false, vertical: true)
                                    Text("• look for “shade-grown” coffee (grown while keeping forest habitats intact)").font(.custom("OpenSans-Light", size: 19)).fixedSize(horizontal: false, vertical: true)
                                    Text("• choose Fair Trade certified goods (supports companies dedicated to sustainable production & paying fair wages").font(.custom("OpenSans-Light", size: 19)).fixedSize(horizontal: false, vertical: true)
-                                   Text("• buy organic food (keeps harmful pesticides out of land and water, protecting farm workers, wildlife and families)").font(.custom("OpenSans-Light", size: 18)).fixedSize(horizontal: false, vertical: true)
+                                   Text("• buy organic food (keeps harmful pesticides out of land and water, protecting farm workers, wildlife and families)").font(.custom("OpenSans-Light", size: 19)).fixedSize(horizontal: false, vertical: true)
                     }.padding(10)
                 }.padding().background(Rectangle() .foregroundColor(.white)).cornerRadius(25).shadow(radius : 15).padding()
                 

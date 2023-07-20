@@ -26,7 +26,7 @@ struct food: View {
                     }
                     Text("• Trying to eat less meat").font(.custom("OpenSans-Light", size: 20)).fixedSize(horizontal: false, vertical: true)
                     Text("→ The meat production industry produces large amounts of water waste, pollution, and greenhouse gas emissions").font(.custom("OpenSans-Light", size: 20)).padding(.leading, 30.0).fixedSize(horizontal: false, vertical: true)
-                    Text("• Buy take out less often to reduce waste from food/delivery packaging (try making more home-cooked meals!)").font(.custom("OpenSans-Light", size: 20)).fixedSize(horizontal: false, vertical: true)
+                    Text("• Buying take out less often to reduce waste from food/delivery packaging (try making more home-cooked meals!)").font(.custom("OpenSans-Light", size: 20)).fixedSize(horizontal: false, vertical: true)
                     
                 }.padding(10)
             }.padding().background(Rectangle() .foregroundColor(.white)).cornerRadius(25).shadow(radius : 15).padding()

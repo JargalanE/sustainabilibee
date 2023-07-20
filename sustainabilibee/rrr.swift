@@ -38,7 +38,7 @@ struct rrr: View {
                         Text("Recycle by:").font(.custom("AlegreyaSansSC-Regular", size: 25))
                         Text("• adding a recycling bin to household").font(.custom("OpenSans-Light", size: 19)).fixedSize(horizontal: false, vertical: true)
                         Text("• identify which materials your recycling program accepts").font(.custom("OpenSans-Light", size: 19)).fixedSize(horizontal: false, vertical: true)
-                        Text("• clean items & flatten boxes before recycling").font(.custom("OpenSans-Light", size: 19)).fixedSize(horizontal: false, vertical: true)
+                        Text("• cleaning items & flattening boxes before recycling").font(.custom("OpenSans-Light", size: 19)).fixedSize(horizontal: false, vertical: true)
                         
                         
                         
